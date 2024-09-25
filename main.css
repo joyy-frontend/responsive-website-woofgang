@@ -548,20 +548,17 @@ form h3 {
   gap: 1rem;
   width: 100%;
   text-align: center;
-  /* margin-top: 3rem; */
   margin: 3rem auto 0 auto;
-  /* margin: 0 auto; */
 }
 
 .gallery img {
   width: 100%;
-  /* height: auto; */
   height: 20rem;
-  /* max-height */
   object-fit: cover;
   padding-bottom: 5%;
   object-fit: cover;
   object-position: center;
+  margin-top: 4rem;
 }
 
 .faq-container {
