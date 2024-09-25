@@ -1,0 +1,99 @@
+@media(max-width: 767px) {
+  nav {
+    display: flex;
+    flex-direction: row;
+    justify-content: space-between;
+    align-items: center;
+    background: white;
+    cursor: pointer;
+    gap: 5px;
+    width: 100%;
+  }
+
+  .logo-container {
+    display: flex;
+    align-items: center;
+  }
+
+  nav ul {
+    display: flex;
+  }
+
+  picture img {
+    padding: 0;
+    width: 50%;
+  }
+
+  .material-icons {
+    font-size: 2rem;
+  }
+
+  .home-container {
+    display: flex;
+    flex-direction: column;
+  }
+
+  .home-image {
+    width: 100%;
+    height: auto;
+    margin: 0;
+  }
+
+  .cbt-container {
+    display: flex;
+    flex-direction: column;
+    text-align: center;
+  }
+
+  .cbt-container p {
+    text-align: center;
+    margin: 0 auto;
+  }
+
+  .learn-more {
+    width: 80%;
+  }
+
+  .contact-btn {
+    width: 100%;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    margin: 10% auto;
+  }
+
+  footer {
+    padding: 2%;
+  }
+
+  footer p {
+    text-align: center;
+    margin: 0;
+  }
+
+  .gallery {
+    display: flex;
+    flex-wrap: wrap;
+    gap: 1rem;
+  }
+
+  .gallery img {
+    max-width: 100%;
+    height: 100vh;
+    border-radius: 5%;
+  }
+
+  .animation-container {
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+  }
+
+  .contact-form-container {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    border: 1px solid red;
+  }
+}

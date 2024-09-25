@@ -1,0 +1,182 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <link rel="stylesheet" href="https://cdn.jsdelivr.net/npm/bootstrap@5.3.0/dist/css/bootstrap.min.css">
+  <link rel="stylesheet" href="https://fonts.googleapis.com/icon?family=Material+Icons">
+  <link rel="stylesheet" href="./main.css" />
+  <link rel="stylesheet" href="./tablet.css" />
+  <link rel="stylesheet" href="./mobile.css" />
+  <link rel="preconnect" href="https://fonts.googleapis.com">
+  <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+  <link
+    href="https://fonts.googleapis.com/css2?family=Moderustic:wght@300..800&family=Nanum+Gothic:wght@400;700&family=Roboto:ital,wght@0,100;0,300;0,400;0,500;0,700;0,900;1,100;1,300;1,400;1,500;1,700;1,900&display=swap"
+    rel="stylesheet">
+  <title>Woofgang Responsive Website</title>
+</head>
+
+<body>
+  <div class="wrap">
+    <nav>
+      <div class="logo-container">
+        <a href="./index.html">
+          <picture>
+            <img src="/assets/img/logo.png" alt="Woof Gang logo" />
+          </picture>
+        </a>
+      </div>
+      <span class="spacer"></span>
+      <div class="d-none d-lg-flex justify-content-between nav-container">
+        <ul>
+          <li><a href="#" id="current-page">HOME</a></li>
+          <li><a href="./pages/grooming.html">GROOMING</a></li>
+          <li class="dropdown"><a href="#">COMPANY</a></li>
+        </ul>
+      </div>
+      <div class="d-lg-none d-md-none d-flex menu-icon">
+        <div class="m-2 pt-2">
+          <i class="material-icons">menu</i>
+        </div>
+      </div>
+    </nav>
+    <div class="top-section"></div>
+    <div class="container">
+      <main>
+        <article>
+          <div class="gallery">
+            <img src="./assets/img/bath-dog-1.webp" alt="bath-dog-1" />
+            <img src="./assets/img/bath-dog-2.jpg" alt="bath-dog-2" />
+            <img src="./assets/img/bath-dog-3.jpg" alt="bath-dog-3" />
+            <img src="./assets/img/bath-dog-4.webp" alt="bath-dog-4" />
+          </div>
+          <div class="home-container">
+            <div class="home-image">
+              <img src="./assets/img/home-main.png" alt="bath-puppy">
+            </div>
+            <div class="cbt-container">
+              <p class="cbt-title">Personalized pampering</p>
+              <h1>IS OUR SPECIALTY</h1>
+              <p class="cbt-sub-title" id="top-sub-title">Puppy life isn't always naps and
+                snacks. It can be hard work. Reward your favorite sidekick with a
+                luxurious Woof Gang spa day!</p>
+              <p class="cbt-sub-title">Our pet salons are designed to make your pup feel calm, relaxed, and indulged
+                while being bathed, styled, and adored.
+                Our wag-nificent groomers are extensively trained, and dedicated to making every visit feel like a day
+                at the park!</p>
+              <div class="learn-more-container">
+                <button class="learn-more">LEARN MORE</button>
+              </div>
+            </div>
+          </div>
+        </article>
+      </main>
+    </div>
+    <div class="animation-container">
+      <div class="animation-section">
+        <div class="card">
+          <div class="card-image">
+            <img src="./assets/img/bath-dog-1.webp" alt="Project Image" />
+          </div>
+          <div class="card-content">
+            <h3>Bath</h3>
+            <p>A brief description of the project goes here. Click to view more details.</p>
+          </div>
+        </div>
+      </div>
+      <div class="animation-section">
+        <div class="card">
+          <div class="card-image">
+            <img src="./assets/img/bath-dog-2.jpg" alt="Project Image" />
+          </div>
+          <div class="card-content">
+            <h3>Bath</h3>
+            <p>A brief description of the project goes here. Click to view more details.</p>
+          </div>
+        </div>
+      </div>
+      <div class="animation-section">
+        <div class="card">
+          <div class="card-image">
+            <img src="./assets/img/bath-dog-4.webp" alt="Project Image" />
+          </div>
+          <div class="card-content">
+            <h3>Bath</h3>
+            <p>A brief description of the project goes here. Click to view more details.</p>
+          </div>
+        </div>
+      </div>
+    </div>
+    <!-- ::before, ::after -->
+    <div class="notification">
+      Reminder
+    </div>
+
+    <!-- FAQ Accordian-->
+    <div class="faq-container">
+      <h2>Frequently Asked Questions</h2>
+      <div class="faq-item" id="faq1">
+        <a href="#faq1">
+          <div class="faq-question">What is your return policy?</div>
+        </a>
+        <div class="faq-answer">Our return policy allows for returns within 30 days of purchase.</div>
+      </div>
+
+      <div class="faq-item" id="faq2">
+        <a href="#faq2">
+          <div class="faq-question">How do I track my order?</div>
+        </a>
+        <div class="faq-answer">You can track your order using the tracking link provided in your confirmation email.
+        </div>
+      </div>
+      <div class="faq-item" id="faq3">
+        <a href="#faq3">
+          <div class="faq-question">Do you offer international shipping?</div>
+        </a>
+        <div class="faq-answer">Yes, we offer international shipping to selected countries.</div>
+      </div>
+    </div>
+
+    <div class="contact-form-container">
+      <form>
+        <h3>Information Form</h3>
+        <div class="form-group">
+          <label for="fullname">FULL NAME: <em class="required">*</em></label>
+          <input type="text" id="fullname" name="fullname">
+        </div>
+        <div class="form-group">
+          <label for="phone">PHONE: <em class="required">*</em></label>
+          <input type="text" id="phone" name="phone">
+        </div>
+        <div class="form-group">
+          <label for="email">EMAIL: <em class="required">*</em></label>
+          <input type="text" id="email" name="email">
+        </div>
+        <div class="form-group">
+          <label for="source">What is your question related to?<em class="required">*</em></label>
+          <select id="source" name="source">
+            <option value="" disabled selected>Select an option</option>
+            <option value="advertising">Advertising</option>
+            <option value="social-media">Social Media</option>
+            <option value="family-friend">Family/Friend</option>
+            <option value="google">Google</option>
+            <option value="event">Event</option>
+            <option value="other">Other</option>
+          </select>
+        </div>
+        <div class="form-group">
+          <label for="comments">COMMENTS: <em class="required">*</em></label>
+          <textarea name="comments" id="comments"></textarea>
+        </div>
+        <button class="contact-btn">Submit</button>
+        <p class="bottom-txt">Do not submit passwords through this form Report malicious form</p>
+      </form>
+    </div>
+    <footer>
+      <p>&copy; Woof Gang Bakery & Grooming 2024.Design by High Seas Design House.</p>
+    </footer>
+  </div>
+</body>
+
+</html>
